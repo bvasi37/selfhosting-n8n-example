@@ -83,7 +83,7 @@ Next install Docker following the instructions from the [official Docker documen
 After Docker is installed, you can clone the contents of this repository, by running
 
 ```bash
-git clone https://github.com/sliplane-support/selfhosting-n8n-example.git
+git clone https://github.com/bvasi37/selfhosting-n8n-example.git
 ```
 
 A new folder will be created on your VPS named `selfhosting-n8n-example`. Navigate inside the directory with 
