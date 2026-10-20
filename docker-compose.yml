@@ -18,6 +18,7 @@ services:
     restart: unless-stopped
     environment:
       - DB_TYPE=postgresdb
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
       - DB_POSTGRESDB_HOST=${POSTGRES_HOST}
       - DB_POSTGRESDB_PORT=${POSTGRES_PORT}
       - DB_POSTGRESDB_DATABASE=${POSTGRES_DB}
